@@ -6,11 +6,27 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
+
   "icons": [
     {
       "src": "maskable-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "desktop"
+    },
+    {
+      "src": "img.png",
+      "sizes": "591x1280",
+      "type": "image/png",
+      "platform": "mobile"
+    }
+
   ]
 }

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 4,
+    "title": "eum et est occaecati",
+    "description": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+    "image": "https://picsum.photos/250/140?random=4",
+    "price": 682,
+    "categories": [
+      "Category 1",
+      "Category 2"
+    ],
+    "country": "Ukraine",
+    "userEmail": null
+  },
+  {
+    "id": 2,
+    "title": "qui est esse",
+    "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+    "image": "https://picsum.photos/250/140?random=2",
+    "price": 479,
+    "categories": [
+      "Category 1",
+      "Category 2"
+    ],
+    "country": "Ukraine",
+    "userEmail": null
+  },
+  {
+    "id": 3,
+    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    "description": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+    "image": "https://picsum.photos/250/140?random=3",
+    "price": 787,
+    "categories": [
+      "Category 1",
+      "Category 2"
+    ],
+    "country": "Ukraine",
+    "userEmail": null
+  }
+]

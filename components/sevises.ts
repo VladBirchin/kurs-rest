@@ -1,4 +1,5 @@
 export interface Service {
+    id: number;
     title: string;
     description: string;
     image: string;
@@ -9,6 +10,7 @@ export interface Service {
 
 export const services: Service[] = [
     {
+        id: 1,
         title: 'Haircut',
         description: 'Description of the haircut service Description of the haircut service Description of the haircut service Description of the haircut service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -17,6 +19,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 2,
         title: 'Hair Coloring',
         description: 'Description of the hair coloring service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -25,6 +28,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 3,
         title: 'Manicure',
         description: 'Description of the manicure service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -33,6 +37,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 4,
         title: 'Pedicure',
         description: 'Description of the pedicure service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -41,6 +46,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 5,
         title: 'Facial Massage',
         description: 'Description of the facial massage service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -49,6 +55,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 6,
         title: 'Eyelash Lamination',
         description: 'Description of the eyelash lamination service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -57,6 +64,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 7,
         title: 'Eyebrow Correction',
         description: 'Description of the eyebrow correction service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -65,6 +73,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 8,
         title: 'Fitness Training',
         description: 'Description of the fitness training service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -73,6 +82,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 9,
         title: 'Spa Treatments',
         description: 'Description of the spa treatment service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -81,6 +91,7 @@ export const services: Service[] = [
         country: 'Ukraine'
     },
     {
+        id: 10,
         title: 'Cosmetology',
         description: 'Description of the cosmetology service',
         image: 'https://images.unsplash.com/photo-1556742393-d75f468bfcb0',
@@ -89,4 +100,3 @@ export const services: Service[] = [
         country: 'Ukraine'
     }
 ];
-

@@ -1,42 +1,15 @@
-import { useState, useEffect } from 'react';
-import { Service } from '../types/types'; // Імпортуємо тип з файлу
 
-const useFetchServices = () => {
-    const [services, setServices] = useState<Service[]>([]);
-    const [loading, setLoading] = useState<boolean>(true);
-    const [error, setError] = useState<string | null>(null);
+export const fetchServicesApi = async () => {
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const posts = await res.json();
 
-    const fetchServices = async () => {
-        try {
-            const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-            if (!res.ok) {
-                throw new Error('Failed to fetch data');
-            }
-            const posts = await res.json();
-
-            const mappedServices = posts.slice(0, 10).map((post: any, index: number) => ({
-                id: post.id,
-                title: post.title,
-                description: post.body,
-                image: `https://picsum.photos/250/140?random=${index + 1}`,
-                price: Math.floor(Math.random() * 1000) + 100,
-                categories: ['Category 1', 'Category 2'],
-                country: 'Ukraine',
-            }));
-
-            setServices(mappedServices);
-        } catch (error: any) {
-            setError(error.message);
-        } finally {
-            setLoading(false);
-        }
-    };
-
-    useEffect(() => {
-        fetchServices();
-    }, []);
-
-    return { services, loading, error };
+    return posts.slice(0, 10).map((post: any, index: number) => ({
+        id: post.id,
+        title: post.title,
+        description: post.body,
+        image: `https://picsum.photos/250/140?random=${index + 1}`,
+        price: Math.floor(Math.random() * 1000) + 100,
+        categories: ['Category 1', 'Category 2'],
+        country: 'Ukraine',
+    }));
 };
-
-export default useFetchServices;

@@ -1,17 +1,32 @@
 @font-face {
   font-family: 'Satoshi';
-  src: url('Satoshi-Regular.otf') format('opentype');
+  src: url('../pages/Satoshi-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
 
 .App {
   text-align: center;
-  background-color: #FAEBE3;
+  background-color: #00000;
   padding-bottom: 80px;
 
 
 }
+
+a {
+  text-decoration: none;
+}
+
+
+
+
 
